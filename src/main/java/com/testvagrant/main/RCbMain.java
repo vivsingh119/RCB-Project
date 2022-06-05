@@ -6,7 +6,6 @@ import java.util.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
 public class RCbMain {
 	public  static boolean validateTeamPlayers(List<Player> players){
-		 //String []forignPlayer= {"Faf Du Plessis","Glenn Maxwell","Wanindu Hasaranga","Josh Hazlewood"};
 		 int foreignPlayerCount=0;
          boolean isWicketKepper=false;
        //for checking max 4 foreignplayer
